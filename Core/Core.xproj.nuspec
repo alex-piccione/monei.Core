@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>monei.Core</id>
+    <version>1.0.0</version>
+    <authors>Alessandro Piccione</authors>
+    <owners>Alessandro Piccione</owners>
+	<description>Core Class Library for monei</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>First commit</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags></tags>
+    <dependencies>
+      <!--<dependency id="SampleDependency" version="1.0" />-->
+    </dependencies>
+  </metadata>
+</package>
