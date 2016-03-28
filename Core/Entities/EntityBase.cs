@@ -10,6 +10,7 @@ namespace monei.Core.Entities
         public EntityBase()
         {
             CreationDate = DateTime.UtcNow;
+            LastModificationDate = null;
         }
 
 

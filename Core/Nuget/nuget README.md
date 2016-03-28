@@ -20,9 +20,3 @@ It doesn't work with .xproj file
 
 ex. nuget spec ..\MyProject.xproj
 
-
-
-
-
-
-
