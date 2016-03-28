@@ -1,4 +1,6 @@
-# NGet README
+# NuGet README
+
+From [NuGet Creating-and-Publishing-a-Package](https://docs.nuget.org/create/Creating-and-Publishing-a-Package)
 
 ## Use NuGet
 
@@ -6,11 +8,13 @@ Create a batch file in the same folder where is nuget.exe:
 nuget.exe
 pause
 
+nuget.exe MUST exists in the folder where the project file exists.   
+
 ## update nuget
-:\> nuget update -self
+:\\> nuget update -self
 
 ## create a package
-:\>nuget pack [path to your project file]  
+:\\>nuget pack [path to your project file]  
 
 ex. nuget pack ..\myProgect.csproj  
 It doesn't work with .xproj file.  
@@ -22,7 +26,7 @@ Attempting to build package from 'Core.xproj.nuspec'.
 The package ID '..\Core.xproj' contains invalid characters. Examples of valid package IDs include 'MyPackage' and 'MyPackage.Sample'.
 
 ## create a spec
-:\>nuget spec [path to your project file]  
+:\\>nuget spec [path to your project file]  
 
 ex. nuget spec ..\MyProject.xproj  
 
