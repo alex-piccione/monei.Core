@@ -3,18 +3,18 @@
   <metadata>
     <id>monei.Core</id>
     <version>$version$</version>
-    <authors>alex</authors>
-    <owners>alex</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <authors>Alessandro Piccione</authors>
+    <owners>Alessandro Piccione</owners>
+    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
     <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package description</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>First NuGet package creation, just a bunch of files.</description>
+    <releaseNotes>First NuGet package creation, just a bunch of files.</releaseNotes>
     <copyright>Copyright 2016</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>money</tags>
     <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
+      <!--<dependency id="SampleDependency" version="1.0" />-->
     </dependencies>
   </metadata>
 </package>

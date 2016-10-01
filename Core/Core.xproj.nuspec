@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>Alessandro Piccione</authors>
     <owners>Alessandro Piccione</owners>
-	<description>Core Class Library for monei</description>
+  <description>Core Library for monei</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>First commit</releaseNotes>
     <copyright>Copyright 2016</copyright>
