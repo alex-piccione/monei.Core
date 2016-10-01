@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "Core\Core.xproj", "{A39CC2F9-FE55-40C2-92E5-64FF3A00FCBE}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "Core\monei.Core.xproj", "{A39CC2F9-FE55-40C2-92E5-64FF3A00FCBE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C90CAB01-9B45-4098-958B-9F4DFA7B0D84}"
 	ProjectSection(SolutionItems) = preProject

@@ -1,6 +1,6 @@
 ﻿{
   "version": "1.0.0-*",
-  "description": "Core Class Library",
+  "description": "monei Core library",
   "authors": [ "Alessandro Piccione" ],
   "tags": [ "" ],
   "projectUrl": "",
@@ -18,6 +18,6 @@
         }
     },
     "dependencies": {
-        "CreateNewNuGetPackageFromProjectAfterEachBuild": "1.8.9"
+       
     }
 }
