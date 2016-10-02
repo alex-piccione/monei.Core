@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>monei.Core</id>
-    <version>1.0.0</version>
+    <version>$version$</version>
     <authors>Alessandro Piccione</authors>
     <owners>Alessandro Piccione</owners>
     <description>Core library for monei</description>
