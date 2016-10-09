@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{73FCE11B
 		NuGet\Create NuGet.bat = NuGet\Create NuGet.bat
 		monei.Core\monei.Core.csproj.nuspec = monei.Core\monei.Core.csproj.nuspec
 		NuGet\nuget.exe = NuGet\nuget.exe
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

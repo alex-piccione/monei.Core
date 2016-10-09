@@ -46,6 +46,8 @@
     <Compile Include="Entities\Account.cs" />
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\EntityBase.cs" />
+    <Compile Include="Entities\Enums.cs" />
+    <Compile Include="Entities\Fact.cs" />
     <Compile Include="Entities\Subcategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

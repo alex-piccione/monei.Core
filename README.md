@@ -1,6 +1,6 @@
 # monei.Core
 
-This library contains the enitties for monei application.
+This library contains the entities for monei applications.
 
 ## Entities
 

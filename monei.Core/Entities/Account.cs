@@ -12,12 +12,6 @@ namespace monei.Core.Entities
         public AccountRole Role { get; set; }
         public DateTime? LastLogin { get; set; }
 
-        public enum AccountRole
-        {
-            Administrator,
-            User,
-        }
-
         public static Account Create(string username, string password, AccountRole role)
         {
             Account account = new Account()
