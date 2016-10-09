@@ -30,7 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,7 @@
 goto :exit
 
 :package
+    del "$(SolutionDir)NuGet\*.nupkg"
     echo ## Create NuGet package (configuration: $(ConfigurationName))
     "$(SolutionDir)NuGet\nuget.exe"  pack "$(ProjectPath)" -Prop Configuration=Release -IncludeReferencedProjects -symbols  -outputdirectory "$(SolutionDir)NuGet"
 
