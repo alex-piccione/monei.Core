@@ -9,5 +9,7 @@ namespace monei.Core.Entities
     {
         public string Name { get; set; }
         public string Description { get; set; }
+
+        public IEnumerable<Subcategory> Subcategories { get; set; }
     }
 }
