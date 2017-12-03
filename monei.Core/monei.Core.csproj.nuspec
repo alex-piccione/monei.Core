@@ -3,14 +3,13 @@
   <metadata>
     <id>monei.Core</id>
     <version>$version$</version>
-    <!-- $version$ -->
-    <authors>Alessandro Piccione</authors>
+    <authors>$authors$</authors>
     <owners>Alessandro Piccione</owners>
     <title>monei.Core</title>
     <description>Core library for monei applications.</description>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Definitively move to "old style" .Net project library because .Net Core actually doesn't work (produced DLL are not usable when added as referenced library in other .Net projects) and NuGet is not ready for this kind of projects.</releaseNotes>
     <copyright>Copyright 2016</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Add the Currency entity</releaseNotes>
     <tags></tags>
     <dependencies>
       <!--<dependency id="SampleDependency" version="1.0" />-->

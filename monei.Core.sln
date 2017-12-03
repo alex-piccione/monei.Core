@@ -1,16 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "monei.Core", "monei.Core\monei.Core.csproj", "{6C2FD2B8-F150-435E-9358-7BC58B076B4E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{73FCE11B-F6DD-406B-8B53-981650F4736D}"
 	ProjectSection(SolutionItems) = preProject
+		NuGet\Create NuGet pre-release.bat = NuGet\Create NuGet pre-release.bat
 		NuGet\Create NuGet.bat = NuGet\Create NuGet.bat
 		monei.Core\monei.Core.csproj.nuspec = monei.Core\monei.Core.csproj.nuspec
 		NuGet\nuget.exe = NuGet\nuget.exe
-		README.md = README.md
+		NuGet\NuGet_API_key.txt = NuGet\NuGet_API_key.txt
+		NuGet\README.md = NuGet\README.md
 	EndProjectSection
 EndProject
 Global
@@ -27,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75F2D37C-E310-48E3-B393-4966A8F3FFD0}
 	EndGlobalSection
 EndGlobal

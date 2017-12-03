@@ -38,7 +38,7 @@ namespace monei.Core.BusinessLogic
                     return LoginResult.WrongPassword;
                 }
                 
-                accountRepository.UpdateLastLogin(account.Id, DateTime.UtcNow);                
+                accountRepository.SetLastLoginDate(account.Id, DateTime.UtcNow);                
 
                 return LoginResult.Ok;
             }

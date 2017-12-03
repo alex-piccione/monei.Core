@@ -6,9 +6,10 @@
         User,
     }
 
-    public enum FactType {
+    public enum EntryType
+    {
+        Outcome = -1,
         Transfer = 0,
-        Income = +1,
-        Outcome = -1
+        Income = +1        
     }
 }

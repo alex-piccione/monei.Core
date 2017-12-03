@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("monei.Core")]
-[assembly: AssemblyDescription("www")]
+[assembly: AssemblyDescription("The core library for the monei project.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("monei.Core")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCopyright("Copyright ©  2016 - Alessandro Piccione")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

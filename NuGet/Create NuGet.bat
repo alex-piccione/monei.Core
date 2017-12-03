@@ -1,11 +1,31 @@
-
 @echo OFF
-rem http://docs.nuget.org/ndocs/tools/nuget.exe-cli-reference#pack
-rem call nuget pack on project file automatically load .nuspec file to use the templates ($version$)
 
-rem NuGet does not work with xproj files
+set author="Alessandro Piccione"
+set /p key=<NuGet_API_key.txt
 
-nuget pack "..\monei.Core\monei.Core.csproj" -Prop Configuration=Release -IncludeReferencedProjects -symbols 
-rem -outputdirectory "..\output"
+:: Clean
+del *.nupkg
 
-echo "NuGet package created"
+:: Pack
+nuget pack "..\monei.Core\monei.Core.csproj" -Properties Configuration=Release;authors=%author% -IncludeReferencedProjects 
+
+echo.
+echo ** NuGet package created **
+echo.
+
+:: Publish
+
+set publish=n
+if "%1" == "publish" set publish=y
+
+if "%publish%" neq "y" (
+    set /p publish= "Publish to NuGet? (y/n): "
+)
+
+
+if "%publish%"=="y" (	
+    nuget push *.nupkg %key% -Source https://www.nuget.org/api/v2/package
+    echo.
+    echo ** NuGet package published **
+    echo.
+)

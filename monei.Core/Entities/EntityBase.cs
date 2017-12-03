@@ -13,10 +13,10 @@ namespace monei.Core.Entities
             LastModificationDate = null;
         }
 
-        public virtual TKey Id { get; set; }
+        public TKey Id { get; set; }
 
-        public virtual DateTime CreationDate { get; set; } 
-        public virtual DateTime? LastModificationDate { get; set; }
+        public DateTime CreationDate { get; set; } 
+        public DateTime? LastModificationDate { get; set; }
         //public virtual Account CreationAccount { get; set; }
         //public virtual Account LastUpdateAccount { get; set; }
     }        
